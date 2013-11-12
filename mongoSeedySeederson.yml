@@ -1,0 +1,8 @@
+mDatabase: onping_production
+mHost: localHost
+mDelay: 100000
+mPrint: True
+mCollection: onping_tag_history
+mInsertProto: ! '[{"step":15.0,"stop":{"sType":{"Offset":30}},"start":{"sType":{"Offset":-3600}},"iId":{"iType":{"Random":[]},"pid":299}}
+                 ,{"step":15.0,"stop":{"sType":{"Offset":30}},"start":{"sType":{"Offset":-3600}},"iId":{"iType":{"Random":[]},"pid":300}}
+		 ]'

@@ -1,0 +1,12 @@
+
+mDatabase: onping_production
+mHost: localHost
+mDelay: 100000
+mPrint: True
+mCollection: onping_tag_history
+mInsertProto: ! '[{"step":15.0,"stop":{"sType":{"tag":"Offset","contents":3600}},"start":{"sType":{"tag":"Now","contents":[]}},"iId":{"iType":{"tag":"Random":,"contents":[]},"pid":299}}
+                 ,{"step":15.0,"stop":{"sType":{"tag":"Offset","contents":3600}},"start":{"sType":{"tag":"Now","contents":[]}},"iId":{"iType":{"tag":"Random":,"contents":[]},"pid":300}}
+		 ,{"step":15.0,"stop":{"sType":{"tag":"Offset","contents":3600}},"start":{"sType":{"tag":"Now","contents":[]}},"iId":{"iType":{"tag":"Random":,"contents":[]},"pid":301}}
+		 ,{"step":15.0,"stop":{"sType":{"tag":"Offset","contents":3600}},"start":{"sType":{"tag":"Now","contents":[]}},"iId":{"iType":{"tag":"Random":,"contents":[]},"pid":302}}
+		 ,{"step":15.0,"stop":{"sType":{"tag":"Offset","contents":3600}},"start":{"sType":{"tag":"Now","contents":[]}},"iId":{"iType":{"tag":"Random":,"contents":[]},"pid":303}}
+		 ]'
