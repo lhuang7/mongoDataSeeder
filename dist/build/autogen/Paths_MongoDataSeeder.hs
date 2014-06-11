@@ -17,11 +17,11 @@ version :: Version
 version = Version {versionBranch = [0,0,1], versionTags = []}
 bindir, libdir, datadir, libexecdir, sysconfdir :: FilePath
 
-bindir     = "/home/ling/Documents/Workstation/onping2.0/branches/testFixtures/mongoDataSeeder/.cabal-sandbox/bin"
-libdir     = "/home/ling/Documents/Workstation/onping2.0/branches/testFixtures/mongoDataSeeder/.cabal-sandbox/lib/x86_64-linux-ghc-7.6.3/MongoDataSeeder-0.0.1"
-datadir    = "/home/ling/Documents/Workstation/onping2.0/branches/testFixtures/mongoDataSeeder/.cabal-sandbox/share/x86_64-linux-ghc-7.6.3/MongoDataSeeder-0.0.1"
-libexecdir = "/home/ling/Documents/Workstation/onping2.0/branches/testFixtures/mongoDataSeeder/.cabal-sandbox/libexec"
-sysconfdir = "/home/ling/Documents/Workstation/onping2.0/branches/testFixtures/mongoDataSeeder/.cabal-sandbox/etc"
+bindir     = "/home/kevin/programs/mongoDataSeeder/.cabal-sandbox/bin"
+libdir     = "/home/kevin/programs/mongoDataSeeder/.cabal-sandbox/lib/x86_64-linux-ghc-7.8.2/MongoDataSeeder-0.0.1"
+datadir    = "/home/kevin/programs/mongoDataSeeder/.cabal-sandbox/share/x86_64-linux-ghc-7.8.2/MongoDataSeeder-0.0.1"
+libexecdir = "/home/kevin/programs/mongoDataSeeder/.cabal-sandbox/libexec"
+sysconfdir = "/home/kevin/programs/mongoDataSeeder/.cabal-sandbox/etc"
 
 getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir :: IO FilePath
 getBinDir = catchIO (getEnv "MongoDataSeeder_bindir") (\_ -> return bindir)
